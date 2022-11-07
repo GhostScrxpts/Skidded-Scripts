@@ -1,0 +1,11 @@
+for i, v in pairs(getgc(true)) do
+        if type(v) == "table" and rawget(v, "BaseRecoil") then
+            v.Recoil = 5 ---edit this to change
+            v.BaseRecoil = 5 ---edit this to change
+            print("Modified:" , v)
+            for ch,e in pairs(v) do
+
+
+            end
+        end
+    end
